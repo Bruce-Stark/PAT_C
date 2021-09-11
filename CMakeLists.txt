@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(PAT_C)
-
 set(CMAKE_CXX_STANDARD 14)
+project(PAT_C)
 
 file (GLOB files *.cpp */*.cpp */*/*.cpp)
 foreach (file ${files})
